@@ -1,0 +1,119 @@
+/* Set global font family */
+body {
+    font-family: "Cabin", sans-serif; 
+    background-color: #f3e3dc;
+  }
+  
+  /* Style the container for the About Us page */
+  .AboutUs {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center; /* Center all text within the container */
+  }
+  
+  /* Style the h2 headings */
+  h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* Style the h3 heading */
+  h3 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* Style the h4 headings */
+  h4 {
+    text-align: justify;
+    margin-bottom: 20px;
+  }
+  
+  /* Set the width of the container */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }  
+  
+  /* Set text color */
+  h2 {
+    color: #c5472e;
+    text-align: center;
+    margin-bottom: 20px; /* Add margin-bottom to create a gap */
+  }
+  
+  /* Set text color */
+  body, h3, h4, h5, p {
+    color: #213c5f;
+    text-align: center;
+  }
+  
+  /* Style links */
+  a {
+    color: #c5472e;
+  }
+  
+  a:hover {
+    color: #bb908a;
+  }
+  
+  /* Style buttons */
+  button {
+    background-color: #c5472e;
+    color: #f3e3dc;
+  }
+  
+  button:hover {
+    background-color: #bb908a;
+  }
+  
+  /* Style headings */
+  h1, h6 {
+    color: #c5472e;
+  }
+  
+  /* Style borders */
+  hr {
+    border-top: 2px solid #999dac;
+  }
+  
+  /* Style forms */
+  input[type=text], select, textarea {
+    border: 2px solid #cd7760;
+  }
+  
+  input[type=submit] {
+    background-color: #a6aebd;
+    color: #f3e3dc;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #e2b9ad;
+  }
+  
+  /* Style tables */
+  table {
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 2px solid #c2b9c2;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #e2b9ad;
+    color: #1a3251;
+  }
+  
+  /* Style the container for the About Us page */
+  .AboutUs {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center; /* Center all text within the container */
+  }
+  
