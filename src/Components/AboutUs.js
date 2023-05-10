@@ -1,11 +1,12 @@
 import React from 'react';
-import CFGlogo from './assets/CFGlogo.jpg'; // import the image file
+import CFGlogo from "../Images/logo.jpeg"
 import "./AboutUs.css";
+import Footer from "./Footer"
 
 function AboutUs() {
   return (
     <div className="AboutUs">
-      <img src={CFGlogo} alt="CFG's Finest logo" />
+      
       <h1>~ ABOUT US ~</h1>
 
 
@@ -15,6 +16,8 @@ function AboutUs() {
       
  
       <h2>A Place Where the Vibe is Always Right</h2> 
+
+      <img src={CFGlogo} alt="CFG's Finest logo" />
 
       <h3>Fresh flavours and Appetising Meals That Won't Break The Bank.</h3>
 
@@ -44,6 +47,8 @@ function AboutUs() {
 
 
       <h2>We hope to see You soon!</h2>
+
+      <Footer />
       
     </div>
   );

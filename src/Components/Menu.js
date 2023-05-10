@@ -1,16 +1,5 @@
-// import React from 'react'
-
-// const Menu = () => {
-//     return (
-//       <div>
-//         <h1>This will be the menu page</h1>
-//       </div>
-//     )
-//   }
-  
-
-// export default Menu;
-
+import React from 'react';
+import Footer from "./Footer"
 import '../App.css';
 import SubHead from './SubHead';
 import './Projectlogo.jpg';
@@ -21,7 +10,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img id="logo" src={require('./Projectlogo.jpg')} alt="logo"/>
         <div ClassName="title">
           <h1 id="menu">Main Menu</h1>
           {/*<img id="chef" src="https://media.istockphoto.com/id/1446478827/photo/a-chef-is-cooking-in-his-restaurants-kitchen.jpg?b=1&s=170667a&w=0&k=20&c=CPnBJAsLv6e8ZE1DP_z0zP1uRk2adI-aeQQuPSsK8QU=" alt="chefs"/>*/}
@@ -150,6 +138,7 @@ candied hazelnuts</p>
         <p>Please contact us to discuss dietary requirements prior to your visit</p>
         <button className="book">BOOK NOW</button>
         </div>
+        <Footer />
      </div>
     
 
