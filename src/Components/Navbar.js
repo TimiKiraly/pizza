@@ -11,13 +11,12 @@ const Navbar = () => {
             <img className="logocfg" src = {Logo} />
         </div>
         <div className='navbar-links-container'>
-            <a to="/Home">Home</a>
-            <a to="/About">About us</a>
-            <a to="/Menu">Menu</a>
-            <a to="/Locations">Locations</a>
-            <a href="#contact">Contact</a>
-            
-            <button className='primary-button'>Book Now</button>
+            <a href="/Home">Home</a>
+            <a href="/AboutUs">About us</a>
+            <a href="/Menu">Menu</a>
+            <a href="/Locations">Locations</a>
+            <a href="/Contacts">Contact</a>
+            <a href="/Booking">Book Now</a>
             
         </div>
 

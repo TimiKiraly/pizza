@@ -1,11 +1,9 @@
 import React from 'react'
-import Navbar from './Navbar';
 import Pizza from "../Images/pizza1.jpg";
 
 const Home = () => {
   return (
     <div className='home-container'>
-      <Navbar />
       <div className='hometext'>
       <h3>CRAFTED WITH SPIRIT</h3>
       <h1>A TAILORED TASTE OF ITALY</h1>
