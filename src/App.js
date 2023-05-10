@@ -6,8 +6,9 @@ import Contact from "./Components/Contacts";
 import Footer from "./Components/Footer";
 import Menu from "./Components/Menu";
 import { Component } from "react";
-import {Route, Routes} from "react-router-dom"
-import Layout from "./Components/Layout";
+
+import { Link, Route } from 'react-router-dom';
+import { BrowserRouter,Routes } from 'react-router-dom';
 
 
 // export default function App() {
@@ -30,6 +31,7 @@ function App () {
     
         <div className="App">
           <Home/>
+          <Menu />
           <Contact />
           <Footer />
         
