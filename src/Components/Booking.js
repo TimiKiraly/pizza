@@ -7,7 +7,8 @@ function Booking() {
         <div>
         
 
-        <div align='middle'><p>To book a table with us, pop in, call or email us on the below contact details </p></div>
+        <div align='middle'><h3>To book a table with us, pop in, call or email us on the below contact details  </h3></div>
+        
         <Footer />
          
         </div>
